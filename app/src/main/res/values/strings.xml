@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">VaishaliSiddeshwar_TatsatTendulkar_COMP304Sec003_Lab4_Ex1</string>
+    <string name="strLogin">Sign In</string>
+    <string name="strRegister">Register</string>
+    <string name="logo">MEDITECH</string>
+    <string name="strNurseID">Nurse ID</string>
+    <string name="strNurseFName">First Name</string>
+    <string name="strNurseLName">Last Name</string>
+    <string name="strDepartment">Department</string>
+    <string name="strPassword">Password</string>
+    <string name="NurseTitle">Nurse Registration</string>
+    <string name="PatientTitle">Add/Edit Patient</string>
+    <string name="listPatients">Patients List</string>
+    <string name="LoginTitle">Login Screen</string>
+    <string name="PatientsTitle">Patients List</string>
+    <string name="TestsTitle">Tests List</string>
+    <string name="strSubmit">Submit</string>
+    <string name="strTest">Test</string>
+    <string name="strPatientID">Patient ID</string>
+    <string name="strPatientName">Patient Name</string>
+    <string name="PatientDept">Patient Department</string>
+    <string name="strPatientRoom">Room:</string>
+    <string name="strPatientNurse">Nurse:</string>
+    <string name="strloginfail">Login Failed</string>
+    <string name="strRegisterstatus">Success. Please go back and Login</string>
+    <string name="strTemperature">Temperature</string>
+    <string name="strBPH">BPH</string>
+    <string name="strBPL">BPL</string>
+    <string name="strBloodGroup">Blood Group</string>
+    <string name="strTestName">Test Name</string>
+    <string name="strPatientFullName">Patient Full Name</string>
+
+</resources>

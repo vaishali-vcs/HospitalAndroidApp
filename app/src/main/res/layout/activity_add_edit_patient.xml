@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddEditPatientActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:src="@drawable/image_edit" />
+
+    <EditText
+        android:id="@+id/edit_text_PatientID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="@string/strPatientID" />
+
+    <EditText
+        android:id="@+id/edit_text_PatientFName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strNurseFName" />
+
+    <EditText
+        android:id="@+id/edit_text_PatientLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strNurseLName" />
+
+    <EditText
+        android:id="@+id/edit_text_PatientDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strDepartment" />
+
+    <EditText
+        android:id="@+id/edit_text_PatientNurseId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strPatientNurse"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_text_PatientRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strPatientRoom" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strTest"
+            android:onClick="btnTestClick" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="btnSubmitClick"
+            android:text="@string/strSubmit" />
+
+    </LinearLayout>
+</LinearLayout>

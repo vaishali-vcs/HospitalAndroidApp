@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddEditTestActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:src="@drawable/image_edit" />
+    <EditText
+        android:id="@+id/edit_text_FName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="@string/strNurseFName" />
+    <EditText
+        android:id="@+id/edit_text_LName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="@string/strNurseLName" />
+
+    <EditText
+        android:id="@+id/edit_text_PID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="@string/strPatientID" />
+
+    <EditText
+        android:id="@+id/edit_text_TestName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strTestName" />
+    <EditText
+        android:id="@+id/edit_text_BPH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/strBPH" />
+    <EditText
+        android:id="@+id/edit_text_BPL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/strBPL" />
+    <EditText
+        android:id="@+id/edit_text_BloodGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strBloodGroup" />
+
+    <EditText
+        android:id="@+id/edit_text_PNurseId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strPatientNurse"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_text_Temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/strTemperature" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:width="100dp"
+        android:onClick="btnSubmitClick"
+        android:text="@string/strSubmit"></Button>
+
+</LinearLayout>

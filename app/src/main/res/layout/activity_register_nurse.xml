@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RegisterNurseActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/NurseTitle"
+        style="@style/banner" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_register"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/error"
+        android:id="@+id/textview_RegisterStatus" />
+    <EditText
+        android:id="@+id/edit_text_NurseID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/strNurseID" />
+    <EditText
+        android:id="@+id/edit_text_NurseFName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strNurseFName" />
+    <EditText
+        android:id="@+id/edit_text_NurseLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strNurseLName" />
+    <EditText
+        android:id="@+id/edit_text_NurseDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strDepartment" />
+    <EditText
+        android:id="@+id/edit_text_NursePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/strPassword"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="120dp"
+        android:onClick="btnSubmitClick"
+        android:text="@string/strSubmit"></Button>
+
+</LinearLayout>

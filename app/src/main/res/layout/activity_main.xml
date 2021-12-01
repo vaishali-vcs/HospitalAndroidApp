@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+
+        android:text="@string/logo"
+        android:textColor="#4CAF50"
+        android:textSize="48sp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="278dp"
+        android:src="@drawable/nurse_logo"></ImageView>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="120dp"
+        android:onClick="btnLoginClick"
+        android:text="@string/strLogin"></Button>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="120dp"
+        android:onClick="btnRegisterClick"
+        android:text="@string/strRegister"></Button>
+</LinearLayout>
